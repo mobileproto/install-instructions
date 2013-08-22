@@ -56,8 +56,11 @@ Otherwise...
 
 ###Run your first PhoneGap app
 ```
+cordova create HelloWorld
 phonegap create HelloWorld
 cd HelloWorld
+cordova build android
 phonegap local build android
+cordova emulate android
 phonegap local run android
 ```
