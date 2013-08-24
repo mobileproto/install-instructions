@@ -41,8 +41,8 @@ Now try ` java -version` again. You should see that you have version 1.7.
 Thankfully, Android SDK tools come bundled with Android Studio, so now we just need to set it up such that Phonegap knows where to find it.
 
 1. Locate the directory where Android Studio was installed
-2. Open up your .bash_profile (OSX) or .bashrc (Linux) inside your Home directory and add the the android-sdk path
-	`export PATH=<path to android-studio>/sdk/:<android-studio>/sdk/platform-tools:<android-studio>/sdk/tools:$PATH`
+2. Open up your .bash_profile (OSX) or .bashrc (Linux) inside your Home directory and add the the SDK path
+	`export PATH=<android-studio>/sdk:<android-studio>/sdk/platform-tools:<android-studio>/sdk/tools:$PATH`
 3. Open Android Studio, go to Tools -> Android -> SDK Manager
 4. Install the Android 4.2.2, 2.3.3 SDK Platforms and the Intel Emulator (found under Extras).
 
