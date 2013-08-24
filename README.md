@@ -45,7 +45,7 @@ Thankfully, Android SDK tools come bundled with Android Studio, so now we just n
 	`export PATH=<android-studio>/sdk:<android-studio>/sdk/platform-tools:<android-studio>/sdk/tools:$PATH`
 3. `source .bash_profile` or `source .bashrc`
 4. Open Android Studio, go to Tools -> Android -> SDK Manager
-5. Install the Android 4.2.2, 2.3.3 SDK Platforms and the Intel Emulator (found under Extras).
+5. Install the Android 4.2.2, 2.3.3 SDK Platforms and the Intel Emulator Accelerator (found under Extras, OSX only).
 
 ###Github
 If you are already set up with a Github username and Github installed on the command line...
