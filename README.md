@@ -19,10 +19,8 @@ To install PhoneGap, we will be installing...
 ###Java JDK (Linux Only)
 First check that you have Java installed:
 ``` java -version```
-If you have version 1.6, or you see "openJDK" anywhere, let's fix that.
 
-For those without Java installed, follow the instructions for downloading Java 7 JDK [here.](http://www.ubuntugeek.com/how-to-install-oracle-java-7-in-ubuntu-12-04.html)
-
+If you have version 1.6, or you see "openJDK" anywhere, follow the instructions for downloading Java 7 JDK [here.](http://www.ubuntugeek.com/how-to-install-oracle-java-7-in-ubuntu-12-04.html)
 You should only need the following commands if you are on a fresh install:
 ```
 sudo apt-get purge openjdk*
@@ -41,9 +39,10 @@ Now try ` java -version` again. You should see that you have version 1.7.
 
 #####Set up Android SDK Tools
 Thankfully, Android SDK tools come bundled with Android Studio, so now we just need to set it up such that Phonegap knows where to find it.
+
 1. Locate the directory where Android Studio was installed
 2. Open up your .bash_profile (OSX) or .bashrc (Linux) inside your Home directory and add the the android-sdk path
-	`export PATH=<path to android studio>/sdk/:<path to android studio>/sdk/platform-tools:<path to android studio>/sdk/tools:$PATH`
+	`export PATH=<path to android-studio>/sdk/:<android-studio>/sdk/platform-tools:<android-studio>/sdk/tools:$PATH`
 3. Open Android Studio, go to Tools -> Android -> SDK Manager
 4. Install the Android 4.2.2, 2.3.3 SDK Platforms and the Intel Emulator (found under Extras).
 
@@ -63,9 +62,8 @@ Otherwise...
 3. More from Tim...
 
 ###Cordova PhoneGap
-1. Enter in the console: `npm install -g cordova`
-2. Enter in the console: `npm install -g phonegap`
-3. If you are getting error messages, add `sudo` in front of the npm commands
+1. Enter in the console: `sudo npm install -g cordova`
+2. Enter in the console: `sudo npm install -g phonegap`
 
 ###Create a emulator
 1. In Android Studio go to Tools -> Android -> AVD Manager
