@@ -1,19 +1,8 @@
 #Install Instructions
 
-Below are instructions for both Phone Gap and native Android installation instructions. Please install both, as there are a few assignments thorughout the semester where you will be required to use both installations.
+Below are instructions for Android installation instructions.
 
-###Phone Gap Installation
 _First off, make sure you are running Linux or Mac OSX. No Windows please._ If you do not have one of these two operating systems installed, please stop and install Linux (Ubuntu 12.04 recommended, we have installation drives if you need them) before continuing.
-
-To install PhoneGap, we will be installing...
-
-
-1. Java JDK 6 (Linux only)
-2. Android Studio
-3. Github
-4. Node.Js
-5. Cordova, PhoneGap
-
 
 
 ###Java JDK (Linux Only)
@@ -49,22 +38,13 @@ Thankfully, Android SDK tools come bundled with Android Studio, so now we just n
 
 ###Github
 If you are already set up with a Github username and Github installed on the command line...
-Please [enter your Github info for us here](https://docs.google.com/forms/d/1ZsL6tvAlNkZu1AbBnvmJ4G7Yj_LOCbO0bjRS6SnXdIw/viewform) and skip to the Node.Js install
+Please [enter your Github info for us here](https://docs.google.com/forms/d/1ZsL6tvAlNkZu1AbBnvmJ4G7Yj_LOCbO0bjRS6SnXdIw/viewform)
 
 Otherwise...
 
 1. Go to Github.com and make a username. Note: You probably want to keep this username professional if possible. 
 2. Download the [Github command line tools](https://help.github.com/articles/set-up-git) and follow the instructions on the page to setup the Github command line
 3. Follow all of the instructions (for Mac) and ignore the OSX keychain info for Linux
-
-###Node.Js
-1. Skip this if you have Node.Js already installed
-2. Otherwise, download [Node.Js](http://nodejs.org/download/) and follow the install prompts
-3. More from Tim...
-
-###Cordova PhoneGap
-1. Enter in the console: `sudo npm install -g cordova`
-2. Enter in the console: `sudo npm install -g phonegap`
 
 ###Create a emulator
 1. In Android Studio go to Tools -> Android -> AVD Manager
@@ -76,14 +56,3 @@ Otherwise...
 	* Depending on the device, you may want to reduce the RAM. 512 will be fine.
 	* Leave everything else at their default values
 4. Press OK
-
-###Run your first PhoneGap app
-```
-cordova create HelloWorld
-phonegap create HelloWorld
-cd HelloWorld
-cordova build android
-phonegap local build android
-cordova emulate android
-phonegap local run android
-```
