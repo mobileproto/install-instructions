@@ -38,7 +38,7 @@ Thankfully, Android SDK tools come bundled with Android Studio, so now we just n
 
 1. Locate the directory where Android Studio was installed
 2. Open up your .bash_profile (OSX) or .bashrc (Linux) inside your Home directory and add the the SDK path
-	`export PATH=/opt/android-studio/sdk:/opt/android-studio/sdk/platform-tools:/opt/android-studio/sdk/tools:$PATH`
+	`export PATH=/opt/android-studio/bin:/opt/android-studio/sdk:/opt/android-studio/sdk/platform-tools:/opt/android-studio/sdk/tools:$PATH`
 3. `source .bash_profile` or `source .bashrc`
 4. Open Android Studio, go to Tools -> Android -> SDK Manager
 5. Install the Android 4.2.2, 2.3.3 SDK Platforms and the Intel Emulator Accelerator (found under Extras, OSX only).
