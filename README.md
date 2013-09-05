@@ -24,15 +24,32 @@ Now try ` java -version` again. You should see that you have version 1.7.
 
 ###Android Studio
 1. Download [Android Studio](http://developer.android.com/sdk/installing/studio.html) for Mac or Linux
-2. Follow the install instructions
-3. The command to extract the files is `tar xvfz <anrdoid studio .tgz file>`
+2. Run these commands in the folder you downloaded the file ```
+tar xvf android-studio*.tgz
+sudo mkdir -p /opt
+sudo mv android-studio* /opt/android-studio
+/opt/android-studio/bin/studio.sh
+```
+
+#### Alternately
+
+Open up a console and run:
+
+```
+sudo apt-get install axel
+axel -a http://dl.google.com/android/studio/android-studio-bundle-130.737825-linux.tgz
+tar xvf android-studio*.tgz
+sudo mkdir -p /opt
+sudo mv android-studio* /opt/android-studio
+/opt/android-studio/bin/studio.sh
+```
 
 #####Set up Android SDK Tools
 Thankfully, Android SDK tools come bundled with Android Studio, so now we just need to set it up such that Phonegap knows where to find it.
 
 1. Locate the directory where Android Studio was installed
 2. Open up your .bash_profile (OSX) or .bashrc (Linux) inside your Home directory and add the the SDK path
-	`export PATH=<android-studio>/sdk:<android-studio>/sdk/platform-tools:<android-studio>/sdk/tools:$PATH`
+	`export PATH=/opt/android-studio/sdk:/opt/android-studio/sdk/platform-tools:/opt/android-studio/sdk/tools:$PATH`
 3. `source .bash_profile` or `source .bashrc`
 4. Open Android Studio, go to Tools -> Android -> SDK Manager
 5. Install the Android 4.2.2, 2.3.3 SDK Platforms and the Intel Emulator Accelerator (found under Extras, OSX only).
