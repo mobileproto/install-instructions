@@ -24,7 +24,9 @@ Now try ` java -version` again. You should see that you have version 1.7.
 
 ###Android Studio
 1. Download [Android Studio](http://developer.android.com/sdk/installing/studio.html) for Mac or Linux
-2. Run these commands in the folder you downloaded the file ```
+2. Run these commands in the folder you downloaded the file:
+
+```
 tar xvf android-studio*.tgz
 sudo mkdir -p /opt
 sudo mv android-studio* /opt/android-studio
