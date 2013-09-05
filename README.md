@@ -39,7 +39,7 @@ Thankfully, Android SDK tools come bundled with Android Studio, so now we just n
 
 ###Github
 If you are already set up with a Github username and Github installed on the command line...
-Please [enter your Github info for us here](https://docs.google.com/forms/d/1ZsL6tvAlNkZu1AbBnvmJ4G7Yj_LOCbO0bjRS6SnXdIw/viewform)
+Please [enter your Github info for us here](https://docs.google.com/spreadsheet/ccc?key=0AsKVYJazOn4FdFFoUDRJWDU5S2lSbmNOTDdmazVyeGc&usp=sharing)
 
 Otherwise...
 
