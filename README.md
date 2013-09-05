@@ -25,6 +25,7 @@ Now try ` java -version` again. You should see that you have version 1.7.
 ###Android Studio
 1. Download [Android Studio](http://developer.android.com/sdk/installing/studio.html) for Mac or Linux
 2. Follow the install instructions
+3. The command to extract the files is `tar xvfz <anrdoid studio .tgz file>`
 
 #####Set up Android SDK Tools
 Thankfully, Android SDK tools come bundled with Android Studio, so now we just need to set it up such that Phonegap knows where to find it.
