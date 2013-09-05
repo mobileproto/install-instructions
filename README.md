@@ -29,20 +29,7 @@ Now try ` java -version` again. You should see that you have version 1.7.
 ```
 tar xvf android-studio*.tgz
 sudo mkdir -p /opt
-sudo mv android-studio* /opt/android-studio
-/opt/android-studio/bin/studio.sh
-```
-
-#### Alternately
-
-Open up a console and run:
-
-```
-sudo apt-get install axel
-axel -a http://dl.google.com/android/studio/android-studio-bundle-130.737825-linux.tgz
-tar xvf android-studio*.tgz
-sudo mkdir -p /opt
-sudo mv android-studio* /opt/android-studio
+sudo mv android-studio*/ /opt/android-studio
 /opt/android-studio/bin/studio.sh
 ```
 
